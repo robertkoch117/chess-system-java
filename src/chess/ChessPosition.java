@@ -23,10 +23,21 @@ public class ChessPosition {
 		return row;
 	}
 	
+	/**
+	 * Metodo que transforma a posicao para o formato da matriz.
+	 * Exemplo: (0,0) 
+	 * @return
+	 */
 	protected Position toPosition() {
 		return new Position(8 - row, column - 'a');
 	}
 	
+	/**
+	 * Metodo que transforma a posicao para o formato do xadrez.
+	 * Exemplo: (a,1)
+	 * @param position
+	 * @return
+	 */
 	protected static ChessPosition fromPosition(Position position) {
 		return new ChessPosition((char)('a' - position.getColumn()), 8 - position.getRow());
 	}
