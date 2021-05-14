@@ -24,7 +24,7 @@ public class ChessPosition {
 	}
 	
 	/**
-	 * Metodo que transforma a posicao para o formato da matriz.
+	 * Metodo que converte para a posicao de matriz normal.
 	 * Exemplo: (0,0) 
 	 * @return
 	 */
@@ -33,7 +33,7 @@ public class ChessPosition {
 	}
 	
 	/**
-	 * Metodo que transforma a posicao para o formato do xadrez.
+	 * Metodo que converte para a posicao de matriz do xadrez.
 	 * Exemplo: (a,1)
 	 * @param position
 	 * @return
